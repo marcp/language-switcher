@@ -3,21 +3,21 @@
 <div>
 Let's get with the program.  Here are some examples of using ember-i18n.
 </div>
-
+<h3>
 Here is some text without any interpolations:
-
+</h3>
 <div>
     {{t 'about.main.text'}}
 </div>
-
+<h3>
 And here is some more, with a couple interpolations:
-
+</h3>
 <div>
     {{t 'about.main.moreText' name='Matthew' sectionNumber=35}}
 </div>
-
+<h3>
 And check out the pluralization support:
-
+</h3>
 <div>zero: {{t 'about.main.withPluralization' count=0}}</div>
 <div>1: {{t 'about.main.withPluralization' count=1}}</div>
 <div>19: {{t 'about.main.withPluralization' count=19}}</div>
