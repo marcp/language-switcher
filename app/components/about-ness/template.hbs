@@ -1,0 +1,23 @@
+<h2>This is the about-ness component</h2>
+
+<div>
+Let's get with the program.  Here are some examples of using ember-i18n.
+</div>
+
+Here is some text without any interpolations:
+
+<div>
+    {{t 'about.main.text'}}
+</div>
+
+And here is some more, with a couple interpolations:
+
+<div>
+    {{t 'about.main.moreText' name='Matthew' sectionNumber=35}}
+</div>
+
+And check out the pluralization support:
+
+<div>zero: {{t 'about.main.withPluralization' count=0}}</div>
+<div>1: {{t 'about.main.withPluralization' count=1}}</div>
+<div>19: {{t 'about.main.withPluralization' count=19}}</div>
