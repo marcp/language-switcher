@@ -1,7 +1,6 @@
-# demoapp
+# language-switcher
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a proof-of-concept that we can do all of our insane translations on the client side.
 
 ## Prerequisites
 
