@@ -1,7 +1,7 @@
 {
-  "name": "demoapp",
+  "name": "language-switcher",
   "version": "0.0.0",
-  "description": "Small description for demoapp goes here",
+  "description": "Small description for language-switcher goes here",
   "license": "MIT",
   "author": "",
   "directories": {

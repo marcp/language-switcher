@@ -6,7 +6,7 @@ module.exports = function(environment) {
     i18n: {
       defaultLocale: 'en'
     },
-    modulePrefix: 'demoapp',
+    modulePrefix: 'language-switcher',
     environment,
     rootURL: '/',
     locationType: 'auto',
