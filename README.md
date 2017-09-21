@@ -1,6 +1,6 @@
 # language-switcher
 
-This is a proof-of-concept that we can do all of our insane translations on the client side.
+This is a proof-of-concept that we can do all of our translations on the client side.
 
 ## Prerequisites
 
