@@ -3,8 +3,16 @@
 <h3>Choose your language: {{language-selector}}</h3>
 
 <div>
+    Name: {{input value=(mut name)}}
+    Section number: {{input value=(mut sectionNumber)}}
+</div>
+
+<div>
 Let's get with the program.  Here are some examples of using ember-i18n.
 </div>
+
+<hr />
+
 <h3>
 Here is some text without any interpolations:
 </h3>
@@ -15,7 +23,7 @@ Here is some text without any interpolations:
 And here is some more, with a couple interpolations:
 </h3>
 <div>
-    {{t 'about.main.moreText' name='Matthew' sectionNumber=35}}
+    {{t 'about.main.moreText' name=name sectionNumber=sectionNumber}}
 </div>
 <h3>
 And check out the pluralization support:
